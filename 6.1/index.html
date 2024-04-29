@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body onload=" myFunction()">
+    <h1></h1>
+    <button onclick="onButtonClick(this)">clickkk</button>
+    <div onclick="renderText()" id="deiv-El">div element</div>
+    <span id="span">cliccclkkk</span>
+
+
+    <input type="text" id="myInput" oninput="myFunction()">
+
+    <p id="content"></p>
+
+    
+<select id="mySelect" onchange="myFunction1()">
+    <option value="1">Birinchi tanlov</option>
+    <option value="2">Ikkinchi tanlov</option>
+    <option value="3">Uchinchi tanlov</option>
+  </select>
+  
+  <h3 id="demo"></h3>
+  <h4 id="message"></h4>
+    <select name="" id="select" onchange="onSelect(this)">
+        <option value="uz">uz</option>
+        <option value="en">En</option>
+        <option value="ru">ru</option>
+    </select>
+    
+<div class="myEl" onmouseover="myFunction2()">Mouse ko'rsatgichini ko'rsating</div>
+
+<p id="s8"></p>
+<img id="imggg" onmouseup="light()" onmousedown="dark()" src="./bulboff.gif.url" alt="lamp">
+<button id="Command">ALT SJIFT CTRL CLICK</button>
+
+<!-- <div id="div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"></div> -->
+   <script src="./dash.js"></script>
+</body>
+</html>
